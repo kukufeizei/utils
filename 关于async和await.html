@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+</head>
+<body>
+    <!-- export default {
+            createFile(file) {
+                return new Promise(function(resolve, reject) {
+                    http.get('https://stage-api.shoplitlive.com/upload/' + FileName)
+                        .then(function(response) {
+                            result = {
+                                FileName: FileName,
+                                url: response.data
+                            }
+                            resolve(result)
+                        })
+                })
+            },
+        
+            async uploadFile(file) {
+                const result = await this.createFile(file)
+                if (result.url) {
+                    //执行操作
+                }
+        
+            }
+        }
+        /*
+        promise是返回一个对象，可能是resolve或者reject   
+        然后把API的res传给resolve 并且retrurn出去，
+        这时候createFile就是res 
+        async和 await  必须同时使用，就是说当async uploadFile(){}的时候 必须等待 promise返回  
+        也就是这句话const result = await this.createFile(file)   必须等待这句话执行完，才会往下  */  -->
+</body>
+</html>
